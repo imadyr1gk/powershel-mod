@@ -5,6 +5,9 @@ S'assurer au préalable d'avoir les droits sur tous les sites avec le compte qui
 Ici on limite à 10 le versionnage
 
 ```powershell
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+Import-Module Microsoft.Online.SharePoint.PowerShell
+
 # URL d'administration SharePoint
 $AdminUrl = "https://tenant-admin.sharepoint.com"  # Remplace par l'URL de ton admin center SharePoint
 
