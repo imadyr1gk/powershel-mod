@@ -4,6 +4,11 @@ S'assurer au préalable d'avoir les droits sur tous les sites avec le compte qui
 
 Ici on limite à 10 le versionnage
 
+Ce script utilise le module PnP et le module Microsoft Harepoint Online
+
+Il est impératif d'être en powershell 7 minimum oiur executer le module PnP. ( https://pnp.github.io/powershell/ )
+
+Une fois en powershell 7, il se peut que le module Microsoft Harepoint Online (SPO) ne soit pas fonctionnel. Pour cela voir : https://github.com/imadyr1gk/powershel-mod/blob/main/SPO-in-PWSH7.md
 ```powershell
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 Import-Module Microsoft.Online.SharePoint.PowerShell
