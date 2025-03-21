@@ -26,7 +26,6 @@ Taille totale (TotalSize) : la taille totale ( inclus les versions et les métad
 Dernière version (LastVersion) : la version du fichier.
 
 ```powershell
-
 Install-Module PnP.PowerShell -Scope CurrentUser
 
 Import-Module PnP.PowerShell
@@ -76,4 +75,4 @@ ForEach ($Item in $ListItems)
  }
 #Export Files data to CSV File
 $FileData | Export-Csv -Path $CSVFilePath -NoTypeInformation
-```powershell
+```
