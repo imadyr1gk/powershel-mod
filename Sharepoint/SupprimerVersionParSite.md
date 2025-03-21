@@ -3,6 +3,7 @@
 Dans notre exemple on n'en conserve que 32
 
 ```powershell
+Install-Module PnP.PowerShell -Scope CurrentUser
 # Importer le module PnP PowerShell
 Import-Module PnP.PowerShell
 
