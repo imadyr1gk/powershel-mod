@@ -3,6 +3,7 @@
 Ici on supprime toutes les versions en ne conservant que 50
 
 ```powershell
+Install-Module PnP.PowerShell -Scope CurrentUser
 # Importer le module PnP PowerShell
 Import-Module PnP.PowerShell
 
