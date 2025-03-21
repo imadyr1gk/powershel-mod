@@ -1,6 +1,9 @@
 ## Les fichiers les plus volumineux d'un site Sharepoint en spécifiant une taille minimale de recherche
 
-Il faut se connecter au site avant de pouvoir exécuter le script avec cette commande  : Connect-PnPOnline -Url "https://tenant.sharepoint.com/sites/LE-SITE-a-analyser" -UseWebLogin
+Il faut se connecter au site avant de pouvoir exécuter le script avec cette commande  : 
+```powershell
+Connect-PnPOnline -Url "https://tenant.sharepoint.com/sites/LE-SITE-a-analyser" -UseWebLogin
+```
    Pensez à modifier le nom du fichier CSV sortie
    Si besoin modifier la taille minimum servant de repère : le MinFileSize
 
