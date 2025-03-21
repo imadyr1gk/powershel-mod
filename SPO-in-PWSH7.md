@@ -1,5 +1,7 @@
 # Utilisation de SharePoint Online Management Shell avec PowerShell 7
 
+Source : https://www.kjctech.net/using-sharepoint-online-management-shell-with-powershell-7/
+
 ## Introduction
 
 Ce document fournit des instructions sur l'installation et l'importation du module SharePoint Online Management Shell à l'aide de PowerShell 7.
