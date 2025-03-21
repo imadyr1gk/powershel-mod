@@ -15,3 +15,13 @@ foreach ($site in $sites) {
 ```
 
 Pour retirer changer $true par $false
+
+## Ajout droit à un seul site
+
+```powershell
+$SiteURL = "https://tenant.sharepoint.com/sites/ton-site" 
+Connect-SPOService -Url $SiteURL
+Set-SPOUser -Site $SiteURL -LoginName xxxx@domain.tld -IsSiteCollectionAdmin $true
+```
+
+Pour retirer changer $true par $false
