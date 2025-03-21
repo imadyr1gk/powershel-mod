@@ -9,6 +9,9 @@ https://www.sharepointdiary.com/2019/07/sharepoint-online-set-versioning-limit-u
 https://lazyadmin.nl/office-365/version-history-limits
 
 ```powershell
+Install-Module PnP.PowerShell -Scope CurrentUser
+Import-Module PnP.PowerShell
+
 $SiteURL = "https://tenant.sharepoint.com/sites/ton-site 
 $LibraryName = "Documents"
  
