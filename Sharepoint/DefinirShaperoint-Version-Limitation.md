@@ -1,4 +1,4 @@
-## Définir une politique de versions
+## Définir une politique de versions sur un site
 
 Ici les fichier sont supprimés au delà de 15 Versions. Sur le centre d'admin sharepoint on ne peut pas descendre en dessous de 100. Donc le script est pratique
 
