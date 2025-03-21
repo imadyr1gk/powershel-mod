@@ -13,12 +13,15 @@ Ce document fournit des instructions sur l'installation et l'importation du modu
 
 Pour installer le module SharePoint Online Management Shell, exécutez la commande suivante dans PowerShell 7 :
 
-``powershell
+```powershell
 Install-Module -Name MICROSOFT.Online.SharePoint.PowerShell
+```
 Importation du module
 Après avoir installé le module, vous devez l'importer. Utilisez la commande suivante :
 
+```powershell
 Import-Module MICROSOFT.Online.SharePoint.PowerShell -UseWindowsPowerShell
+```
 Notes
 L'utilisation de -UseWindowsPowerShell permet d'importer le module dans un contexte qui prend en charge les fonctionnalités de SharePoint Online Management Shell.
 Assurez-vous d'exécuter PowerShell en tant qu'administrateur pour éviter les problèmes de permission lors de l'installation du module.
