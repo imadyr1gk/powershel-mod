@@ -1,4 +1,4 @@
-## Ajouter des droits à tous les site sahrepoints pour effectuer des tâches par exemple
+## Ajouter des droits à tous les site sharepoints pour effectuer des tâches par exemple
 
 ```powershell
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
