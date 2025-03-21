@@ -30,7 +30,7 @@ Install-Module PnP.PowerShell -Scope CurrentUser
 
 Import-Module PnP.PowerShell
 
-$SiteURL = "https://tenant.sharepoint.com/sites/tenant-site"
+$SiteURL = "https://tenant.sharepoint.com/sites/ton-site"
 $ListName = "Documents"
 $CSVFilePath = "$env:userprofile\FundLarge-"
 $MinFileSize = 100#100 MB
