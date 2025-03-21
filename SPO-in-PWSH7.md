@@ -1,6 +1,7 @@
 # Utilisation de SharePoint Online Management Shell avec PowerShell 7
 
 Source : https://www.kjctech.net/using-sharepoint-online-management-shell-with-powershell-7/
+Voir directement sur la source si ce tuto ne marche pas
 
 ## Introduction
 
@@ -31,7 +32,6 @@ Conclusion
 Vous êtes maintenant prêt à utiliser le SharePoint Online Management Shell avec PowerShell 7. Vous pouvez commencer à exécuter des commandes pour gérer vos sites SharePoint Online.
 ``
 
-Vous pouvez copier ce texte dans un fichier avec l'extension .md, et il sera formaté correctement pour une visualisation en Markdown.
 
 
 
