@@ -1,6 +1,7 @@
 ## Supprimer toutes les versions des fichiers de la bibliothèque documents d'un sites Sharepoint et n'en conserver qu'un nombre donnée
 
-```poweshell
+
+```powershell
 # Importer le module PnP PowerShell
 Import-Module PnP.PowerShell
 
