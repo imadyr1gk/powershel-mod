@@ -1,0 +1,5 @@
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+Import-Module Microsoft.Online.SharePoint.PowerShell -UseWindowsPowerShell
+
+
+source : https://www.kjctech.net/using-sharepoint-online-management-shell-with-powershell-7/
