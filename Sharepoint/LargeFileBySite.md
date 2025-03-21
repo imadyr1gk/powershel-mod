@@ -10,11 +10,19 @@ Connect-PnPOnline -Url "https://tenant.sharepoint.com/sites/LE-SITE-a-analyser" 
 Les informations extraites pour chaque fichier sont stockées dans un tableau ($FileData) sous forme d'objets personnalisés. Les informations collectées pour chaque fichier incluent :
 
 Nom du fichier (FileName) : le nom du fichier.
+
 URL (URL) : le chemin complet du fichier dans la bibliothèque.
+
 Date de création (Created) : la date à laquelle le fichier a été créé.
+
 Date de modification (Modified) : la date de la dernière modification du fichier.
-Taille du fichier (FileSize) : la taille du fichier en Mo.
+
+Taille du fichier (FileSize) : la taille du fichier en Mo. 
+
+Le _MinFileSize_ , ce ont les fichiers au dessus de cette taille qui seront afficher dans le csv. A modifier au bon vouloir
+
 Taille totale (TotalSize) : la taille totale ( inclus les versions et les métadonnées).
+
 Dernière version (LastVersion) : la version du fichier.
 
 ```powershell
